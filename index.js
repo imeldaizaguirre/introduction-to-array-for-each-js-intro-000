@@ -7,7 +7,7 @@ function doToElementsInArray(array, callback){
 
 function changeCompletely(element, index, array){
   array[index] = Math.floor(Manth.random() * 100 +2).toString() + `${array[index]}s!!!`;
-  
+
 }
 
 let animals = ["dog", "cat", "squirrel"];
